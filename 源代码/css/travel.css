@@ -1,0 +1,30 @@
+/*                travel              */
+.travel-top{
+    background-image: url(../images/travel-header.jpg);
+}
+.city{
+    display: table-cell;
+    height: 380px;
+    width:auto;
+    padding: auto;
+    margin: 10px;
+    text-align: center;
+}
+
+
+img#cityimg{
+    height: 250px;
+    width: 280px;
+    margin: 10px;
+}
+
+h1#cityh1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+p#c-p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #f1a247;
+   font-weight: bold;
+}

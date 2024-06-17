@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>message</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/message.css">
+</head>
+<body>
+    <!-- 页眉区 -->
+    <header class="top">  
+            <h1 id="header-h1">welcome to my website</h1>
+    </header>
+
+    <!-- 导航区 -->
+    <nav>
+        <ul>
+            <li class="selected"><a href="index.html">首页</a></li>
+            <li><a href="films.html">影视推荐！</a></li>
+            <li><a href="hometown.html">家乡宣传</a></li>
+            <li><a href="travel.html">旅游记录</a></li>
+            <li><a href="message.html">留言</a></li>
+        </ul>
+    </nav>
+
+<section id="cont-1">
+    <h1 id="cont1">欢迎给我留言!</h1>
+</section>
+
+<!-- 作为留言区  -->
+
+    <section id="message-area">
+        <h2 id="tit">留言区</h2>
+         
+        <form >
+            <fieldset>
+                <!-- 性别选择 -->
+                <div class="row-mess">
+                    <label for="gender" class="label-ti">性别：</label>
+                    <input type="radio" name="gender" id="women"> <label for="women">女</label>
+                    <br>
+                    <input type="radio" name="gender" id="man"> <label for="man">男</label>
+                </div>
+    
+                <!-- 关系选择 -->
+                <div class="row-mess">
+                    <label for="relation" class="label-ti">关系选择：</label>
+                    <select name="relation" id="relation" aria-placeholder=" ">
+                        <option value="friends">朋友</option>
+                        <option value="related">亲人</option>
+                        <option value="teacher">师生</option>
+                        <option value="passby">陌生人</option>
+                    </select>
+                </div>
+    
+                <!-- 联系方式 -->
+                <div class="row-mess">
+                    <label for="tele" class="label-ti">联系方式：</label>
+                    <input type="text" id="tele" name="tele" placeholder="邮箱/手机号/qq号">
+                </div>
+    
+                <!-- 留言内容 -->
+                <div class="row-mess">
+                    <label for="messages" class="label-ti">给我留言吧：</label>
+                    <textarea name="messages" id="messages"></textarea>
+                </div>
+    
+                <!-- 提交按钮 -->
+                <div id="row-mess">  
+                    <input type="submit" value="提交" id="submit">
+                </div>
+                
+            </fieldset>
+        </form>
+    </section>
+   <img src="./images/比心表情包.png" alt="比心表情包" id="heart">
+    
+    <!-- 页脚区 -->
+    <footer>
+        welcome to my website!
+    <br>
+        Have a good day!
+    <br>
+        made by qxy
+    </footer>
+    
+</body>
+</html>

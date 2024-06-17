@@ -1,0 +1,122 @@
+
+/*                  hometown             */
+.httop{
+    background-image:url(../images/httop1.webp);
+}
+
+.Row-ht{
+    display: table-row;
+    height: auto;
+    width: 1000px;
+    background: #efe3d2;
+}
+
+.Row-ht-eat{
+    display: table-row;
+    height: auto;
+    width: 1000px;
+    background: #efe3d2;
+}
+
+#photocontainer{
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+}
+#photo{
+    width: 3000px;
+	animation: switch 5s ease-out infinite;
+}
+img#fuzhou{
+    width: 1000px;
+    height: 400px;
+    float: left;
+}
+@keyframes switch {
+	0%, 25% {
+		margin-left: 0;
+	}
+	35%, 60% {
+		margin-left: -1000px;
+	}
+	70%, 100% {
+		margin-left: -2000px;
+	}
+}
+
+section#intro-city{
+    height: 250px;
+    background-color: #f4d6d6 ;opacity: 0.7;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1#intro-city-h1{
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
+  color: #3c3b3b;
+}
+
+p#intro-city-p{
+  text-indent: 2em;
+}
+
+section#spot1{
+    display: table-cell;
+    height:250px;
+    width: 400px;
+    margin: 10px 10px;
+    padding: 10px;
+    background:url(../images/三坊七巷.png);
+}
+section#spot2{
+    display: table-cell;
+    height:250px;
+    width: 400px;
+    margin: 10px 10px;
+    padding: 10px;
+    background: url(../images/鼓山.jpg);
+}
+section#spot3{
+    display: table-cell;
+    height:250px;
+    width: 400px;
+    margin: 10px 10px;
+    padding: 10px;
+    background: url(../images/海坛岛.jpg);
+}
+section#spot4{
+    display: table-cell;
+    height:250px;
+    width: 400px;
+    margin: 10px 10px;
+    padding: 10px;
+    background: url(../images/昙石山.jpg);
+}
+p#spot-p{
+    text-indent: 2em;
+    background: #fdfdfdcb;opacity: 0.8;
+}
+h1#spot-h1{
+   font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#eat{
+    display: table-cell;
+    width: 200px;
+    height: 250px;
+    background: #c1dee8;
+    text-align: center;
+    padding: 10px;
+}
+h1#eat-h1{
+    color: #227df6d2;
+}
+img#eat-img{
+    width: 150px;
+    height: 100px;
+}
+

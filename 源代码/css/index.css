@@ -1,0 +1,140 @@
+/* body 采用凝胶布局 */
+body{
+    position: relative;
+    height: 980px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 页眉区 */
+header{
+    height: 96px;
+}
+
+.top{
+    background-image: url(../images/header.jpg);
+}
+
+/* 页眉区文字使用绝对定位 */
+#header-h1{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eff1f4;
+    font-style: italic;
+}
+
+/* 页脚区 */
+footer{
+    text-align:center;
+    clear:right;
+    background-color: #f7b865;
+    padding: 5px;
+}
+
+/* 导航区 */
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: #d2e084;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+/* 删去列表前的点 */
+nav ul{
+    list-style-type: none;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+}
+/* 横向排 */
+nav ul li{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+/* 删去下划线 */
+nav ul li a{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#tableContainer {
+	display:table;
+    width: 1000px;
+    border-spacing:10px;
+}
+.Row{
+    display: table-row;
+    height: 400px;
+    width: 1000px;
+    background: #fce6c5;
+}
+
+
+.indexrow{
+    display: table-row;
+    height:340px;
+    width: 1000px;
+    background: #efe3d2;
+}
+
+/*                               首页                                      */
+/* 第一部分 */
+h1#indexh1{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    clear: both;
+}
+/* 主体 */
+
+aside#pic{
+    float: left;
+    background-color: #e6dbdbcb;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+img#grpic{
+    height: 240px;
+    width: 180px;
+}
+section#cont_1{
+    float: left;
+    padding: 10px;
+   width:600px;
+   height: 400px;
+}
+
+table#tablegr{
+    background-color: #d1daf6;
+    padding: 10px;
+    height: 420px;
+    width: 740px;
+
+}
+
+th,td{
+    border: thin dotted black;
+    padding: 5px;
+
+}
+
+section#img-i{
+    display: table-cell;
+    height: auto;
+    width: 980px;
+}
+img#indeximg{
+    display: table-cell;
+   height: 320px;
+   width:300px;
+   margin: 10px;
+}
+
+
